@@ -1,0 +1,12 @@
+body{
+    height: 1600px;
+}
+
+.navbar {
+  box-shadow:inset 0px 100px -10px 25px rgba(0000, 0000, 0000, 0.5);
+}
+
+.jumbotron {
+  padding: 5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
