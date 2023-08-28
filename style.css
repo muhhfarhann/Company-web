@@ -1,7 +1,76 @@
 body{
-    height: 1600px;
+  background-color: #000000;
+  color: white;
 }
 
+/* navbar */
+.navbar .container, b{
+  font-size: 14pt;
+  color: rgb(224, 9, 9);
+}
+
+/* Jumbotron */
 .jumbotron {
-  padding: 5rem 1rem;
+  background-image: url(img/israel-andrade-YI_9SivVt_s-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+.jumbotron p{
+  margin-top: -10px;
+}
+
+/* About */
+#about .container h2 {
+  color: red;
+}
+
+#about .container span {
+  font-size: 14pt;
+}
+
+/* Cars */
+#newcars{
+  background-color: #001C30;
+  color: white;
+}
+
+#newcars mark{
+  background-color: rgba(250, 244, 244, 0.5);
+  color: rgb(0, 0, 0);
+  border-radius: 45px 45px 45px 45px;
+}
+
+/* Service */
+#services .container .card{
+  opacity: .8;
+  position: static;
+  transition: 1s all;
+}
+
+#services .container .card:hover {
+  opacity: 1;
+  position: static;
+  transform: scale(1, 1);
+  border: 3px solid rgba(9, 109, 9, 0.5);
+  box-shadow: 0px 0px 2px 2px rgb(9, 100, 27);
+}
+
+#services .container .btn{
+  position: static;
+  transition: 1s ease;
+}
+
+#services .container .btn:hover{
+  background-color: green;
+  border: rgb(9, 89, 16);
+}
+
+/* Footer */
+#footer {
+  background-color: black;
+  color: rgba(224, 81, 9, 0.5);
 }
